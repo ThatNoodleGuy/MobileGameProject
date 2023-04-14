@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b823639e543694d890e5f8a77be1af, type: 3}
+  m_Name: Tarodev Stats
+  m_EditorClassIdentifier: 
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  ClimbableLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  LadderLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  SnapInput: 1
+  VerticalDeadzoneThreshold: 0.3
+  HorizontalDeadzoneThreshold: 0.1
+  MaxSpeed: 14
+  Acceleration: 120
+  GroundDeceleration: 60
+  AirDeceleration: 30
+  GroundingForce: -1.5
+  StickyFeetMultiplier: 2
+  GrounderDistance: 0.05
+  AllowCrouching: 1
+  CrouchSpeedPenalty: 0.5
+  CrouchSlowdownFrames: 50
+  CrouchBufferCheck: 0.01
+  MaxAirJumps: 1
+  JumpPower: 36
+  MaxFallSpeed: 40
+  FallAcceleration: 110
+  JumpEndEarlyGravityModifier: 3
+  CoyoteFrames: 7
+  JumpBufferFrames: 7
+  AllowWalls: 1
+  RequireInputPush: 0
+  WallClimbSpeed: 5
+  WallFallAcceleration: 8
+  MaxWallFallSpeed: 15
+  WallJumpPower: {x: 30, y: 25}
+  WallJumpInputLossFrames: 18
+  WallJumpCoyoteFrames: 5
+  WallDetectorSize: {x: 0.75, y: 1.25}
+  AllowLadders: 1
+  AutoAttachToLadders: 1
+  SnapToLadders: 1
+  LadderSnapTime: 0.05
+  LadderShimmySpeedMultiplier: 0.5
+  LadderClimbSpeed: 8
+  LadderSlideSpeed: 12
+  LadderCooldownFrames: 8
+  LadderPopForce: 20
+  AllowLedges: 1
+  LedgeGrabDeceleration: 4
+  LedgeGrabPoint: {x: 0.31, y: 0.75}
+  StandUpOffset: {x: 0.19, y: 0.02}
+  LedgeRaycastSpacing: 0.3
+  LedgeClimbDuration: 0.5
+  AllowDash: 1
+  DashVelocity: 50
+  DashDurationFrames: 5
+  DashEndHorizontalMultiplier: 0.25
+  AllowAttacks: 1
+  AttackFrameCooldown: 15
+  ExternalVelocityDecay: 100
+  ShowWallDetection: 1
+  ShowLedgeDetection: 1
